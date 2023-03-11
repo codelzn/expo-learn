@@ -22,11 +22,18 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.codelzn.expolearn"
     },
     "web": {
       "bundler": "metro",
       "favicon": "./assets/images/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3255fccc-73e5-49ca-b950-7dfea82e826c"
+      }
+    },
+    "owner": "codelzn"
   }
 }
